@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	height: 150vh;
+	width: 100%;
+	background-color: #0F6292;
+  /* overflow: hidden; */
+}
+
+body::-webkit-scrollbar {
+	background-color: transparent;
+	width: .625rem;
+}
+
+body::-webkit-scrollbar-track {
+	background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: white;
+	border-radius: 1.25rem;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li {
+	margin: 0 2rem;
+  }
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #000;
+  min-height: 6.5rem;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 80%;
+  z-index: 999999999999999;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  background-color: #000;
+  color: #FFF;
+  justify-content: space-between;
+}
+
+li{
+  transition: .5s ease;
+}
+
+li:hover {
+  transform: scale(1.5);
+  color: #646a74;
+}
+
+.barra_de_pesquisa {
+  height: 3rem;
+  width: 25rem;
+
+  border-radius: 2.5rem;
+  background-color: #FFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto_da_pesquisa {
+  outline: none;
+  border: 0;
+  background: none;
+  font-size: 1.125rem;
+  width: 100%;
+  height: 100%;
+  padding-left: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.icone {
+  width: 4.375rem;
+  height: 2.188rem;
+}
+
+.texto_da_pesquisa::-webkit-input-placeholder {
+font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}

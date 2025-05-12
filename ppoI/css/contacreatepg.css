@@ -1,0 +1,93 @@
+html, body {
+     overflow: hidden;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5rem;
+
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+}
+
+.login > .usuario {
+    margin-bottom: 10px;
+}
+
+.login > .email {
+    margin-bottom: 10px;
+}
+
+.login > .senha {
+    margin-bottom: 60px;
+}
+
+.login input {
+    background-color: white;
+    width: 20rem;
+    color: black;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.input::placeholder {
+    color: black;
+    font-size: 14px;
+}
+
+.botao {
+    background-color: white;
+    border-radius: 8px;
+    width: 20rem;
+    padding: 5%;
+	font-family: "Poppins", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.dada{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: "DM Serif Display", serif;
+    z-index: 9999999999;
+}
+
+.m1{    
+    margin-top: 30px;
+}
+
+.peixes {
+    position: absolute;
+    z-index: -120;
+    overflow: hidden;
+}

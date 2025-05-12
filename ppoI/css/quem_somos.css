@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+}
+
+.nos {
+    background-color: #0F6292;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    font-family: "Poppins", sans-serif;
+  	font-weight: 400;
+	font-size: large;
+    gap: 20px;
+}
+
+.walter {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.joao {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 140px;
+    
+}
+
+.rian {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.foto1 {
+    background-image: url("imagens/w.jpeg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.foto2 {
+    background-image: url("imagens/j.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.foto3 {
+    background-image: url("imagens/rianzin222.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+.txt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.txt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.txt3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}

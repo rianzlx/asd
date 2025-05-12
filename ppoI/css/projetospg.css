@@ -1,0 +1,85 @@
+.page1{
+  padding-top: 30vh;
+  background-color: #0F6292;
+}
+
+.page2{
+  padding-top: 30vh;
+  background-color: #0F6292;
+}
+
+.page3{
+  padding-top: 30vh;
+  background-color: #0F6292;
+}
+
+section{
+  height: 45vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.gallery {
+  margin: 100px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+  position: relative;
+  text-align: center;
+}
+
+div.gallery:hover {
+  transform: scale(1.1);
+}
+
+
+div.gallery img {
+  width: 150px;
+  height: 150px;
+}
+
+div.image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+div.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.6); /* Cor de sombra */
+}
+
+div.gallery:hover .overlay {
+  opacity: 1;
+}
+
+div.desc {
+  padding-top: 8px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  width: 100%;
+}
+
+div.text {
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  margin: 0 auto;
+  top: 60px;
+  left: 75px;
+  width: 90%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
